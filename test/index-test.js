@@ -7,7 +7,7 @@ import sinon from 'sinon'
 import Adapter from 'enzyme-adapter-react-16'
 
 import ImageSlider from '../src/ImageSlider'
-//import Bomb from '../src/Bomb'
+import Bomb from '../src/Bomb'
 
 configure({ adapter: new Adapter() });
 
