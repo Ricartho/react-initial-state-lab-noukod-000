@@ -11,9 +11,9 @@ export default class Bomb extends Component{
   render(){
     return(
     if({this.state.secondsLeft} === 0){
-      return 'Boom!'
+      return <div>'Boom!'</div>
     }else{
-      return {this.state.secondsLeft}+' seconds left before i go boom!'
+      return <div>'{this.state.secondsLeft} seconds left before i go boom!'</div>
     }
       
       )
