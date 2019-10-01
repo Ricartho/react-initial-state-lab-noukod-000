@@ -9,6 +9,7 @@ export default class ImageSlider extends Component {
   }
   render(){
     return(
+        <div>`I am on slide `</div>
       )
   }
 }
