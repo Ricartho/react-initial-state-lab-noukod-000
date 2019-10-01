@@ -25,19 +25,19 @@ describe('<ImageSlider />', () => {
 });
 
 
-describe('<Bomb />', () => {
-  const wrapper = shallow(<Bomb initialCount={120} />);
+// describe('<Bomb />', () => {
+//   const wrapper = shallow(<Bomb initialCount={120} />);
 
-  it('should set the `secondsLeft` to the value of the `initialCount` prop', () => {
-    expect(wrapper.state('secondsLeft')).to.equal(120);
-  });
+//   it('should set the `secondsLeft` to the value of the `initialCount` prop', () => {
+//     expect(wrapper.state('secondsLeft')).to.equal(120);
+//   });
 
-  it('render the correct text when the timer is not 0', () => {
-    expect(wrapper.text()).to.equal('120 seconds left before I go boom!');
-  });
+//   it('render the correct text when the timer is not 0', () => {
+//     expect(wrapper.text()).to.equal('120 seconds left before I go boom!');
+//   });
 
-  it('render the correct text when the timer is 0', () => {
-    const wrapper = shallow(<Bomb initialCount={0} />);
-    expect(wrapper.text()).to.equal('Boom!');
-  });
-});
+//   it('render the correct text when the timer is 0', () => {
+//     const wrapper = shallow(<Bomb initialCount={0} />);
+//     expect(wrapper.text()).to.equal('Boom!');
+//   });
+// });
