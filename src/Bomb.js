@@ -9,6 +9,9 @@ export default class Bomb extends Component{
     }
   }
   render(){
-    return()
+    return(
+      if {this.state.secondsLeft} === 0 ? 
+      
+      )
   }
 }
