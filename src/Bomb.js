@@ -10,7 +10,7 @@ export default class Bomb extends Component{
   }
   render(){
     return(
-      if {this.state.secondsLeft} === 0 ? 
+     {this.state.secondsLeft} === 0 ? 'Boom!' : 
       
       )
   }
